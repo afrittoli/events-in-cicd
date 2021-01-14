@@ -45,11 +45,14 @@ Standardization?
 
 ---
 
-About CDF
+<!-- .slide: data-background="images/cdf.png"-->
+## Continuous Delivery Foundation
 
 ----
 
-Interoperability SIG
+## Interoperability SIG
+
+see [The road to interoperability in CI/CD](https://fosdem.org/2021/schedule/event/the_road_to_interoperability_in_ci_cd/) @ FOSDEM 2021
 
 ----
 
