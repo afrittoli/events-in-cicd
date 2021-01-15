@@ -1,14 +1,3 @@
----
-title: Events in CI/CD
-tags: cdf, events, interoperability, ci/cd
-slideOptions:
-  theme: solarized
-  transition: 'slide'
-  spotlight:
-    enabled: true
----
-
-
 ## Events in CI/CD
 </br>
 </br>
@@ -21,22 +10,18 @@ FOSDEM — CI/CD Devroom — 07.02.2021
 ---
 
 # The Single Tool
-(diagram with Git*, Tekton, Jenkins, Keptn, ArgoCD)
 
-<!--
-Organisation often find one single tool that
-satisfies all their needs of CI/CD... or not really
--->
+<!-- (diagram with Git*, Tekton, Jenkins, Keptn, ArgoCD) -->
 
-----
+notes: Organizations often find one single tool that satisfies all their needs of CI/CD... or not really
+
+-----
 
 # The single Protocol
-(same diagram plus various protocols)
 
-<!--
-And these different platforms all speak the same
-language... or not really again
--->
+<!-- (same diagram plus various protocols) -->
+
+notes: And these different platforms all speak the same language... or not really again
 
 ---
 
@@ -46,47 +31,40 @@ language... or not really again
 * Scalability
 * Resiliency
 
-<!-- 
-Discuss the benefits of event driven integration
-between the various platforms.
--->
+notes: Discuss the benefits of event driven integration between the various platforms.
 
-----
+-----
 
-...but requires point to point integrations:
+...but requires point to point integrations
 
-<!--
-Platform X reacts to events from platform Y
+notes: Platform X reacts to events from platform Y
 Platform X understand terminology from platform Y
--->
 
-----
+-----
 
-Sometimes lost in translation
+We may get lost in translation
 
-* Workflow
-* Pipeline
-* Build
-* Task
-* Step 
+* Workflow or Pipeline?
+* Build, task or step?
 
-----
+-----
 
-Standardization?
+* Collaboration
+* Standardization
+
+notes: collaboration may help, standardization were possible
 
 ---
 
 ### Continuous Delivery Foundation
 
-<!--
-Enter CDF, a neutral home of CI/CD projects
--->
+notes: Enter CDF, a neutral home of CI/CD projects. A good place for collaboration.
 
-----
+-----
 
-<!-- .slide: data-background="https://github.com/afrittoli/events-in-cicd/raw/main/images/cdf.png"-->
+<!-- .slide: data-background="images/cdf.svg" -->
 
-----
+-----
 
 ## Interoperability SIG
 
@@ -94,21 +72,35 @@ see [The road to interoperability in CI/CD](https://fosdem.org/2021/schedule/eve
 
 > highlight and promote the needs of the users who face challenges constructing complex end-to-end CI/CD flows and pipelines by employing different tools and technologies
 
-----
+notes: one of the objectives of the interop SIG highlights the need for a focus group on events
+
+-----
 
 ## Events in CI/CD subgroup
 
 <!-- logos of technologies involved -->
 
-----
+notes: While the group is hosted @ CDF, its scope is not limited to CDF hosted projects
 
-- Interoperability between CI/CD systems
-- Common protocol
-- Common terminology
+-----
 
-----
+* Interoperability between CI/CD systems
+* Common protocol
+* Common terminology
 
-- More than interop
+notes: The events in CI/CD group was initially created to evaluate how events can be used in the context of interoperability
+
+-----
+
+<!-- .slide: data-background="images/xkcd_standards.png" -->
+
+<!-- Add attribution -->
+
+notes: We want to avoid creating a new standard. Cloud events + metadata
+
+-----
+
+* More than interop
 
 ---
 
@@ -116,9 +108,16 @@ see [The road to interoperability in CI/CD](https://fosdem.org/2021/schedule/eve
 
 ---
 
-- Charter / mission (2/3 slides)
-- Artifacts produced until now
-- Community how to contribute
-- Come and join us
+* Charter / mission (2/3 slides)
 
+---
 
+* Artifacts produced until now
+
+---
+
+* Community how to contribute
+
+---
+
+* Come and join us
