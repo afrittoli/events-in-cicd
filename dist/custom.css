@@ -1,0 +1,23 @@
+/* Presentation custom CSS */
+
+.reveal .footer {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: 0.4em;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background: transparent;
+}
+
+#left {
+	float: left;
+    width:28%;
+    margin-left: 20%;
+}
+
+#right {
+	float: right;
+    width:28%;
+    margin-right: 20%;
+}
