@@ -91,33 +91,8 @@ notes: collaboration may help, standardization were possible
 
 ---
 
-### Continuous Delivery Foundation
-![](images/cdf_logo.svg) <!-- .element height="40%" width="40%" -->
-
-(Since 2019)
-
-
-notes: Enter CDF, a neutral home of CI/CD projects. A good place for collaboration.
-
------
-
-![](images/cdf.svg)
-
------
-
-## Interoperability SIG
-
-(Since 2020)
-
-see [The road to interoperability in CI/CD](https://fosdem.org/2021/schedule/event/the_road_to_interoperability_in_ci_cd/) @ FOSDEM 2021
-
-> highlight and promote the needs of the users who face challenges constructing complex end-to-end CI/CD flows and pipelines by employing different tools and technologies
-
-notes: one of the objectives of the interop SIG highlights the need for a focus group on events
-
------
-
-## Events in CI/CD subgroup
+## Events in CI/CD
+### for Interoperability
 
 </br>
 Open source technologies represented:
@@ -125,10 +100,23 @@ Open source technologies represented:
 
 ![](images/events_in_cicd_opensource.svg)<!-- .element height="30%" width="30%" -->
 
-
 notes: While the group is hosted @ CDF, its scope is not limited to CDF hosted projects
 
 -----
+
+### Interoperability SIG
+
+![](images/cdf_logo.svg) <!-- .element height="30%" width="30%" -->
+
+![](images/cdf.svg)<!-- .element height="40%" width="40%" -->
+
+see [The road to interoperability in CI/CD](https://fosdem.org/2021/schedule/event/the_road_to_interoperability_in_ci_cd/) @ FOSDEM 2021
+
+notes: SIG: Since 2020, CDF: Since 2019
+
+-----
+
+### Events in CI/CD
 
 * Interoperability between CI/CD systems
 * Common protocol
@@ -144,15 +132,23 @@ notes: We want to avoid creating a new standard. Cloud events + metadata
 
 -----
 
-### Events?
+### Protocol
 
-We currently stick with the [definition by CloudEvents](https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology):
+We plan to use [CloudEvents](https://cloudevents.io/) (CNCF) as our base protocol.
+<br/>
+![](images/cloudevents.svg)<!-- .element height="15%" width="15%" -->
+
+-----
+
+### Events
+
+[Definition by CloudEvents](https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology):
 
 > An *event* is a data record expressing an *occurrence* and its context, where *occurrence* is the capture of a statement of fact during the operation of a software system.
 
-We plan on using [CloudEvents](https://cloudevents.io/) (CNCF) as the base protocol.
-
-![](images/cloudevents.svg)<!-- .element height="20%" width="20%" -->
+* A change was proposed in git
+* A build artifact was generated
+* A task was started
 
 -----
 
@@ -172,22 +168,22 @@ We plan on using [CloudEvents](https://cloudevents.io/) (CNCF) as the base proto
 
 ---
 
-## Events in CI/CD SIG
+## Events in CI/CD
+### Special Interest Group
 
 * Proposed in 2021
-* Charter in progress (at the time of writing)
+* Own Charter
 
 * Extend the scope beyond interoperability
 * Give more visibility, attract contributions
 
 -----
 
-### Charter (provisional)
+### Charter
 
-> Research how events can be used to advance CI/CD systems (...)
+> Research how events can be used to advance CI/CD systems as a common format for integration, to drive decoupled, resilient and scalable architectures.
 
-* Common format for integration
-* Decoupled architecture, resilient and scalable
+(provisional)
 
 -----
 
@@ -220,3 +216,4 @@ We plan on using [CloudEvents](https://cloudevents.io/) (CNCF) as the base proto
 * CD Foundation: https://cd.foundation/
 * Interoperability SIG: https://github.com/cdfoundation/sig-interoperability
 * Events in CI/CD work-stream: https://github.com/cdfoundation/sig-interoperability/tree/master/workstreams/events_in_cicd
+* Slides: https://afrittoli.github.io/events-in-cicd/
