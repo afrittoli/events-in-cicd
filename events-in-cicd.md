@@ -3,25 +3,28 @@
 </br>
 
 ### Andrea Frittoli
-#### Tekton, IBM
+#### IBM, Tekton
 
-FOSDEM — CI/CD Devroom — 07.02.2021
+<br/>
+FOSDEM | CI/CD Devroom | 07.02.2021
 
 ---
 
 ## The Single Tool
 
-<!-- (diagram with Git*, Tekton, Jenkins, Keptn, ArgoCD) -->
+![](images/single_tool.svg) <!-- .element height="30%" width="30%" -->
 
 notes: Organizations often find one single tool that satisfies all their needs of CI/CD... or not really
 
 -----
 
+<!-- .slide: data-transition="zoom-in fade-out" -->
+
 ![](images/single_platform.svg) <!-- .element height="80%" width="80%" -->
 
 -----
 
-<!-- .slide: data-transition="fade fade" -->
+<!-- .slide: data-transition="fade" -->
 <!-- .slide: data-transition-speed="fast" -->
 
 ### The Single Protocol
@@ -167,9 +170,9 @@ notes: We want to avoid creating a new standard. Cloud events + metadata
 * Extend the scope beyond interoperability
 * Give more visibility, attract contributions
 
----
+-----
 
-## Charter (provisional)
+### Charter (provisional)
 
 > Research how events can be used to advance CI/CD systems (...)
 
@@ -195,7 +198,7 @@ notes: We want to avoid creating a new standard. Cloud events + metadata
 
 ## Thank You
 
-* Come and join us!
+#### Come and join us!
 
 -----
 
