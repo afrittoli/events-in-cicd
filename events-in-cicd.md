@@ -12,7 +12,7 @@ FOSDEM | CI/CD Devroom | 07.02.2021
 
 ## The Single Tool
 
-![](images/single_tool.svg) <!-- .element height="30%" width="30%" -->
+![](images/single_tool.svg) <!-- .element height="50%" width="50%" -->
 
 notes: Organizations often find one single tool that satisfies all their needs of CI/CD... or not really
 
@@ -92,13 +92,20 @@ notes: collaboration may help, standardization were possible
 ---
 
 ## Events in CI/CD
-### for Interoperability
+### work stream
 
-</br>
+* Started in June 2020
+* Part of the Interoperability SIG @ CDF
+
+<div class=fragment>
+<br/>
 Open source technologies represented:
-</br>
+<br/>
 
-![](images/events_in_cicd_opensource.svg)<!-- .element height="30%" width="30%" -->
+![](images/events_in_cicd_opensource.svg)<!-- .element height="30%" width="30%" 
+-->
+
+</div>
 
 notes: While the group is hosted @ CDF, its scope is not limited to CDF hosted projects
 
@@ -181,7 +188,10 @@ We plan to use [CloudEvents](https://cloudevents.io/) (CNCF) as our base protoco
 
 ### Charter
 
-> Research how events can be used to advance CI/CD systems as a common format for integration, to drive decoupled, resilient and scalable architectures.
+> Research how events can be used to advance CI/CD systems
+
+* as a common format for integration
+* to drive decoupled, resilient and scalable architectures
 
 (provisional)
 
@@ -213,7 +223,9 @@ We plan to use [CloudEvents](https://cloudevents.io/) (CNCF) as our base protoco
 
 ## References
 
+* Slides: https://afrittoli.github.io/events-in-cicd/
 * CD Foundation: https://cd.foundation/
 * Interoperability SIG: https://github.com/cdfoundation/sig-interoperability
 * Events in CI/CD work-stream: https://github.com/cdfoundation/sig-interoperability/tree/master/workstreams/events_in_cicd
-* Slides: https://afrittoli.github.io/events-in-cicd/
+* Events in CI/CD Readme: https://hackmd.io/AnVkdMb3QEeVQXKfIj4tNQ
+* Events vocabulary: https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA
