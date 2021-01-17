@@ -144,7 +144,19 @@ notes: We want to avoid creating a new standard. Cloud events + metadata
 
 -----
 
-### What we are working on
+### Events?
+
+We currently stick with the [definition by CloudEvents](https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology):
+
+> An *event* is a data record expressing an *occurrence* and its context, where *occurrence* is the capture of a statement of fact during the operation of a software system.
+
+We plan on using [CloudEvents](https://cloudevents.io/) (CNCF) as the base protocol.
+
+![](images/cloudevents.svg)<!-- .element height="20%" width="20%" -->
+
+-----
+
+### Problems we are working on
 
 </br>
 
@@ -152,12 +164,10 @@ notes: We want to avoid creating a new standard. Cloud events + metadata
 * Structure: lightweight vs. "complete"
 * Relations: links, order, uniqueness
 * Patterns: descriptive vs. prescriptive events
-* Protocol: [CloudEvents](https://cloudevents.io/) (CNCF)
 
-![](images/cloudevents.svg)<!-- .element height="20%" width="20%" -->
-
+<br/><br/>
 <span class="fragment">
--> More than interoperability <-
+→ More than interoperability ←
 </span>
 
 ---
@@ -192,7 +202,10 @@ notes: We want to avoid creating a new standard. Cloud events + metadata
 
 ### How to contribute
 
-* TBD
+* Join the [#events-in-cicd channel](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) on CDF Slack
+* Bi-weekly [meetings](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md)
+* Group [README](https://hackmd.io/AnVkdMb3QEeVQXKfIj4tNQ)
+* We welcome uses cases, ideas, collaboration, code and positive vibes
 
 ---
 
